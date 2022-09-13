@@ -25,7 +25,7 @@ animali = [
 
 keys = ["weight", "age", "length"]
 save_key = "name"
-c_class = "class"
+
 
 
 sets = multivariable_clustering(animali, save_key, keys, 100, 5)

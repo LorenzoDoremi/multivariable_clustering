@@ -133,6 +133,7 @@ c_class = "class"
 
 classifier = avg_classifier(keys, c_class)
 classifier.train_avg_classifier(animali)
+
 precision = 0
 for el in animali: 
     if el[c_class] == classifier.avg_classify(el):
