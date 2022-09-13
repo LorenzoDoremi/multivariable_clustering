@@ -114,42 +114,6 @@ def multivariable_clustering(data, save_key, keys, iterations, num_sets):
 
 
 
-''' 
-
-# example dataset
-animali = [{"name": "gatto","weight": 4, "age": 3,"length": 55, "class": "felino"},
-{"name": "leone", "weight": 160, "age": 8,"length": 250, "class": "felino"},
-{"name": "tigre","weight": 170,"age": 4, "length": 270, "class": "felino"},
-{"name": "ragno", "weight": 0.27, "age": 2, "length": 14, "class": "invertebrato"},
-{"name": "cane", "weight": 17, "age": 10, "length": 120, "class": "canide"},
-{"name": "squalo", "weight": 5700, "age": 150, "length": 520, "class": "pesce"},
-{"name": "balena", "weight": 10000, "age": 50, "length": 1220, "class": "cetaceo"},
-{"name": "formica", "weight": 0.1, "age": 1, "length": 5, "class": "invertebrato"},
-{"name": "caracal","weight": 8, "age": 3,"length": 105, "class": "canide" },
-{"name": "lupo", "weight": 100, "age": 8,"length": 200, "class": "canide" },
-{"name": "pesce palla","weight": 1,"age": 14, "length": 70, "class": "pesce" },
-{"name": "elefante", "weight": 5000, "age": 80, "length": 500, "class": "pachiderma" },
-{"name": "uomo", "weight": 80, "age": 80, "length": 180, "class": "umano"},
-{"name": "mucca", "weight": 1000, "age": 15, "length": 320, "class": "ruminante"},
-{"name": "toro", "weight": 1200, "age": 10, "length": 350, "class": "ruminante"},
-{"name": "farfalla", "weight": 0.05, "age": 1, "length": 10, "class": "invertebrato"},
-
-]
-
-# example keys used
-keys = ["weight", "age", "length"]
-save_key = "name"
-c_class = "class"
-
-
-sets = multivariable_clustering(animali, save_key, keys, 100, 5)
-
-insert_data(sets, {"name": "New Fish", "weight": 0, "age": 99, "length": 99}, keys, save_key);
-
-
-print(sets) '''
-
-
  
 
 
