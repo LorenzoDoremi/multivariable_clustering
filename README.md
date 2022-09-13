@@ -5,8 +5,8 @@
 <h3> the main parameters are: </h3>
 
 <ul>
- <li> data: a list of dictionaries. </li>
- <li> save_key: a string used to save the names inside the sets. for readability </li>
+ <li>data: a list of dictionaries. </li>
+ <li>save_key: a string used to save the names inside the sets. for readability </li>
  <li>keys: a list of strings containing the dictionary entries. see example</li>
  <li>iteractions: how many time you want to repeat the process (the more, the more accurate)</li>
  <li>num_sets: how many sets you want. </li>
@@ -32,11 +32,16 @@ sets = multivariable_clustering(animali, save_key, keys, 100, 5)
 
 insert_data(sets, {"name": "New Fish", "weight": 0, "age": 99, "length": 99}, keys, save_key);
 
+#get data
+print(sets[0].get_JSON()) 
+
+
+
 ```
 
 <h2> Average Classifier </h2>
 
-<p> This is a classifier class that lets you train an AI to a dictionary dataset, and then will return the most probable class of a new dictionary element. </p>
+<p> This is a classifier class that lets you train an AI to a dictionary dataset, and then will return the most probable class of a new dictionary element, using a simple average algorithm </p>
 
 <h3> the main parameters are: </h3>
 
