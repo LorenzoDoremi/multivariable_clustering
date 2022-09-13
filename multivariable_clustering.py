@@ -114,7 +114,7 @@ def multivariable_clustering(data, save_key, keys, iterations, num_sets):
 
 
 
-
+''' 
 
 # example dataset
 animali = [{"name": "gatto","weight": 4, "age": 3,"length": 55, "class": "felino"},
@@ -147,7 +147,7 @@ sets = multivariable_clustering(animali, save_key, keys, 100, 5)
 insert_data(sets, {"name": "New Fish", "weight": 0, "age": 99, "length": 99}, keys, save_key);
 
 
-print(sets)
+print(sets) '''
 
 
  
